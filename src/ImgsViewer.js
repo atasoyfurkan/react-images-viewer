@@ -230,6 +230,7 @@ class ImgsViewer extends Component {
     )
   }
   renderImgs () {
+    console.log('atasoy');
     const { currImg, imgs, onClickImg, showThumbnails } = this.props
 
     const { imgLoaded } = this.state
